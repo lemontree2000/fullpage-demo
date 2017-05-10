@@ -1,11 +1,11 @@
 /**
  * jq ready
  */
-$(function(a,b) {
+$(function() {
   $('#app').fullpage({
-    'navigation': true,
-    'navigationPosition': 'right'
+    'verticalCentered': true,
+    'controlArrows': false,
+    'sectionsColor': ['red', 'blue', 'yellow', 'indigo']
   });
-
 
 });
