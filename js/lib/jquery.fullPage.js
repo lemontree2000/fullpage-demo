@@ -15,7 +15,7 @@
 			'anchors':[],
 			'navigation': false,
 			'navigationPosition': 'right',
-			'navigationColor': '#000',
+			'navigationColor': '#fff',
 			'navigationTooltips': [],
 			'slidesNavigation': false,
 			'slidesNavPosition': 'bottom',
