@@ -16,7 +16,8 @@ $(function() {
     // 'loopTop': true, // 顶部之后是否回到底部 带动画
     // 'continuousVertical': false, // 是否回到顶部或者底部 ，不带动画
     'loopHorizontal': false, // 左右滑块是否循环
-
+    'continuousVertical': false,
+    'scrollOverflow': true // 超出内容是否显示滚动条
   });
 
 });
