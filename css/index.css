@@ -3,13 +3,16 @@
   background-size: cover;
 }
 #app .section2{
-  background: url('../img/technology_hero_large_2x.jpg') no-repeat 0 0;
-  background-size: cover;
+  background: url('../img/technology_hero_large_2x.jpg') no-repeat top ;
+  background-size: cover
+  ;
+}
+
+#app .section3{
+  background: url('../img/timekeeping_hero_large_2x.jpg') no-repeat center 300px;
+  background-size: 50%;
 }
 /*
-#app .section3{
-  background: red;
-}
 #app .section4{
   background: indigo;
 }*/
