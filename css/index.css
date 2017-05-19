@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#app .section {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  text-align: center;
+}
 #app .section1{
   background: url('../img/hero_sunset_large_2x.jpg') no-repeat 0 0;
   background-size: cover;
@@ -12,6 +22,42 @@
   background: url('../img/timekeeping_hero_large_2x.jpg') no-repeat center 300px;
   background-size: 50%;
 }
+.section h1 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.section p {
+  margin-bottom: 40px;
+}
+.section4 {
+  padding: 0 40px;
+}
+.section4 .row {
+  display: flex;
+}
+ .row .column {
+   flex: 1;
+   padding: 0 130px;
+ }
+
+.column h4 {
+  height: 50px;
+}
+.column .primary {
+  background: url('../img/logo_collection_primary.svg') no-repeat 50% 50%;
+  background-size: 100%;
+}
+.column .sport {
+  background: url('../img/logo_collection_sport.svg') no-repeat 50% 50%;
+  background-size: 100%;
+}
+.column .edition {
+  background: url('../img/logo_collection_edition.svg') no-repeat 50% 50%;
+  background-size: 100%;
+}
+
+
+
 /*
 #app .section4{
   background: indigo;

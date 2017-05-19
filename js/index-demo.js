@@ -3,7 +3,7 @@
  */
 $(function() {
   $('#app').fullpage({
-    'verticalCentered': true, // 是否垂直居中
+    'verticalCentered': false, // 是否垂直居中
     'controlArrows': false, // 是否显示selide左右箭头
     'sectionsColor': ['red', 'blue', 'yellow', 'indigo'], // 定义section 颜色
     'css': true, // 是否开启css3 动画， false为dom动画
