@@ -3,7 +3,7 @@
   background-size: cover;
 }
 #app .section2{
-  background: url('../img/technology_hero_large_2x.jpg') no-repeat top ;
+  background: url('../img/technology_hero_large_2x.jpg') no-repeat 0 0;
   background-size: cover
   ;
 }
