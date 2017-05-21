@@ -96,7 +96,7 @@ $(function() {
       }
     },
     'onLeave': function(index, nextIndex, direction) {
-      console.log('滚动前', index ,nextIndex);
+      console.log('滚动前', index ,nextIndex,direction);
       switch(index) {
         case 1: 
           setTimeout(function() {            
@@ -141,8 +141,15 @@ $(function() {
           break;
       }
     },
-    'afterRender': function() {
-      console.log('页面结构生成后');  
+    'afterRender': function(actions) {
+      $('.section1 h1').css({
+        'transform': 'scale(1.5)',
+        'transition': '0.4s'
+      })
+      $('.section1 p').css({
+        'margin-left': '0',
+        'transition': '0.6s'
+      }).css('transform','rotate(-360deg)');
     }
     
   });
